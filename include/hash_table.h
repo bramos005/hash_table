@@ -9,7 +9,7 @@ typedef struct Node {
 
 typedef struct {
     Node **buckets;
-    int size;
+    unsigned size;
 } HashTable;
 
 extern HashTable *hash_table_create(int size);

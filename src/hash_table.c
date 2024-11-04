@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include "hash_table.h"
+#include "../include/hash_table.h"
 #define HASH_SEED 5381
 
 static unsigned hash(char *key, int table_size){
